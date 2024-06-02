@@ -2,6 +2,10 @@ return {
   -- Specify the plugin 'romgrk/barbar.nvim'
   {
     "romgrk/barbar.nvim",
+    dependencies = {
+      'lewis6991/gitsigns.nvim', -- OPTIONAL: for git status
+      'nvim-tree/nvim-web-devicons', -- OPTIONAL: for file icons
+    },
     config = function()
       local opts = { noremap = true, silent = true }
 
