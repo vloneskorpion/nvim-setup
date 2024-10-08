@@ -3,7 +3,7 @@ return {
   name = "catppuccin",
   priority = 1000,
   config = function()
-  --vim.opt.background = "light"
+  -- vim.opt.background = "light"
   require("catppuccin").setup({
       color_overrides = {
       mocha = {
